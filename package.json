@@ -1,0 +1,26 @@
+{
+  "name": "@sapling/vue-components",
+  "version": "0.1.0",
+  "license": "MPL-2.0",
+  "description": "Vue.js UI components for Sapling",
+  "keywords": [
+    "vuejs",
+    "sapling",
+    "saplingjs",
+    "ui",
+    "components"
+  ],
+  "homepage": "https://www.saplingjs.com",
+  "bugs": "https://github.com/saplingjs/vue-components/issues",
+  "author": {
+    "name": "Oskari Groenroos",
+    "email": "oskari@groenroos.fi",
+    "url": "https://www.groenroos.fi"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "peerDependencies": {
+    "@sapling/sapling": "^0.1.0"
+  }
+}
