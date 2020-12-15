@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sapling Vue test</title>
+
+	<style>
+		#app {
+			margin: 4rem auto;
+			padding: 0 1rem;
+			max-width: 1024px;
+		}
+
+		.columns {
+			display: flex;
+		}
+
+		.column {
+			flex: 1;
+		}
+	</style>
+</head>
+<body>
+	<div id="app">
+		<div class="columns">
+			<div class="column">
+				<login redirect="/app"></login>
+			</div>
+			<div class="column">
+				<signup redirect="/app"></signup>
+			</div>
+		</div>
+		<div class="columns">
+			<div class="column">
+				<recovery redirect="/app"></login>
+			</div>
+			<div class="column">
+				<user-menu redirect="/app"></user-menu>
+			</div>
+		</div>
+	</div>
+
+	<script src="../dist/app.js"></script>
+</body>
+</html>
