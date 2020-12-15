@@ -4,7 +4,11 @@
 
 <script>
 
+import Common from './_Common';
+
 export default {
+	extends: Common,
+
 	name: 'recovery'
 };
 
