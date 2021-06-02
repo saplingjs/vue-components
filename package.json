@@ -19,7 +19,7 @@
   },
   "main": "dist/app.js",
   "dependencies": {
-    "vue": "^2.6.12"
+    "vue": "^2.6.13"
   },
   "peerDependencies": {
     "@sapling/sapling": "^0.1.0"
@@ -27,7 +27,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "laravel-mix": "^5.0.9",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.13"
   },
   "scripts": {
     "dev": "npm run development",
